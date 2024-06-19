@@ -112,8 +112,13 @@ void reconnect()
 void loop()
 {
   if (!client.connected())
+
   {
     reconnect();
   }
   client.loop();
 }
+```
+## Prints
+![fea8ddf2-f8a8-4360-9526-6bba1eb46fd7](https://github.com/Mateus402/PCB-NodeMCU8266./assets/112894988/8276482b-41f2-49f6-925f-6c5e4c2d76fe)
+
